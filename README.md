@@ -4,27 +4,27 @@
 <h1 align="center">Hunt the Wumpus Game</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/wumpus?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/wumpus?color=DE4830">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/wumpus?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/wumpus?color=DE4830">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/wumpus?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/wumpus?color=DE4830">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/wumpus?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/wumpus?color=DE4830" />
 </p>
 
 <p align="center">
 <img
-    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"
+    src="https://img.shields.io/badge/C++-DE4830?style=for-the-badge&logo=c&logoColor=white"
     alt="Website Badge" />
 <img
-    src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows 10&logoColor=white"
+    src="https://img.shields.io/badge/Xcode-000000?style=for-the-badge&logo=apple&logoColor=white"
     alt="Website Badge" />
 </p>
 
 A Hunt the Wumpus game in C++ with OOP and file I/O.
 
-![project image](resources/image1.png)
+![project image](resources/wumpus-art.jpg)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
@@ -54,10 +54,10 @@ A Hunt the Wumpus game in C++ with OOP and file I/O.
 
 
 # Tools Used / Development Environment
-- Python
-- VS Code
+- C++
+- Xcode
 - Terminal
-- Windows 10
+- MacOS
 
 
 
@@ -72,10 +72,15 @@ A Hunt the Wumpus game in C++ with OOP and file I/O.
 
 
 # How to Set Up
-This project was implemented on our local machine inside of a virtual machine using:
-- Ubuntu Version 20.04.03 found at this [link](http://lt.releases.ubuntu.com/20.04.3/).
+This project was implemented on my macbook using:
+- Xcode at the time. Any terminal with gcc installed will work
 - Clone this repository 
-- Open terminal at the codebase `~.../ext2/Noah-Mitchell/`
+- Open terminal at the codebase `~.../wumpus/wumpus-codebase/`
+- Run the `a.out` that is included or compile your own executable with
+```zsh
+g++ -o my_program main.cpp GameWorld.cpp
+```
+- then use `./a.out` or `./my_program` depending on whatever you named your executable.
 
 
 
