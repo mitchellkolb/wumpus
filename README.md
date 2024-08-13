@@ -80,7 +80,7 @@ This project was implemented on my macbook using:
 ```zsh
 g++ -o my_program main.cpp GameWorld.cpp
 ```
-- then use `./a.out` or `./my_program` depending on whatever you named your executable.
+- Then use `./a.out` or `./my_program` depending on whatever you named your executable.
 
 
 
