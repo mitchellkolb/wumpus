@@ -92,26 +92,38 @@ g++ -o my_program main.cpp GameWorld.cpp
 
 
 # Project Overview
-This project utilizes C++ to create a text-based adventure game called "Hunt the Wumpus." I developed this game as part of a programming assignment for a Data Structures course. The game challenges players to navigate a maze, find hidden gold, and avoid deadly hazards like pits and the dreaded Wumpus.
+I used C++ to create a text-based adventure game called "Hunt the Wumpus." This project is a part of a programming assignment for a Data Structures course. The game challenges players to navigate a maze, find hidden gold, and avoid deadly hazards like pits and the dreaded Wumpus that moves around the map as well.
 
 ## Project Details
-In "Hunt the Wumpus," you play on a 5x5 grid that contains a variety of elements: the player (you), a Wumpus (the enemy), a pot of gold (your reward), and several pits (ranging from 5 to 10). The player starts at a random location and must explore the game world by making strategic moves, all while trying to avoid the Wumpus and pits. The objective is to find the gold without running into any hazards. I implemented features like displaying the entire game world, revealing only adjacent areas, and allowing player movement in four directions.
+In "Hunt the Wumpus," you play on a 5x5 grid that contains a variety of elements: the player (you), a Wumpus (the enemy), a pot of gold (your reward), and several pits (ranging from 5 to 10). The player starts at a random location and must explore the game world by making strategic moves, all while trying to avoid the Wumpus and pits. The objective is to find the gold without running into any hazards. I implemented features like displaying the entire game world, revealing only adjacent areas which creates a "fog of war", and allowing player movement in four directions.
 
 ## Gameplay
-The gameplay is straightforward: you control your character using keyboard inputs to move up, down, left, or right. You can also reveal adjacent tiles or display the entire game board if you want to cheat. The game continues until you either find the gold or encounter a Wumpus or a pit, which results in a loss. Points are awarded for each move you survive, but penalties apply if you reveal parts of the game world.
+In my "Hunt the Wumpus," you control your character using the keyboard. The game is played in turns, where you decide your next move based on the current state of the game. Here are the controls:
+
+- **Move Up:** Press `i` or `I` to move the player up one square.
+- **Move Down:** Press `k` or `K` to move the player down one square.
+- **Move Left:** Press `j` or `J` to move the player left one square.
+- **Move Right:** Press `l` or `L` to move the player right one square.
+- **View Adjacent Tiles:** Press `v` or `V` to display the visible world, showing the caves adjacent to your current position.
+- **Cheat Mode:** Press `c` or `C` to display the entire game world, revealing all hazards and the location of the gold.
+- **Restart with Same Board:** Press `r` or `R` to restart the game using the same board setup after winning or losing.
+- **Restart with New Board:** Press `n` or `N` to restart the game with a completely new board.
+- **Quit Game:** Press `q` or `Q` to end the game.
+
+On your turn, you can choose to move in any direction, reveal the adjacent tiles, or view the entire game board. The game continues until you either find the gold, encounter a Wumpus or a pit (resulting in a loss), or decide to quit. Each move you make is tracked, and points are awarded for surviving, with penalties for revealing parts of the game world or cheating.
 
 ## Files and Structure
 - `main.cpp`: This file contains the main game loop, which initializes the game world, handles user inputs, and manages the game state.
 - `GameWorld.cpp`: Here, I implemented the `GameWorld` class, which is responsible for the game environment and core functionalities like displaying the world and handling player movements.
-- `GameWorld.h`: This header file declares the `GameWorld` class and its methods.
+- `GameWorld.h`: This header file declares the `GameWorld` class and its functions.
 
 
 ## Results and Lessons Learned
-While developing this project, I reinforced my understanding of object-oriented programming concepts such as class design, constructors, destructors, and operator overloading. Implementing a simple game loop gave me valuable experience in managing game state and handling user inputs. I also learned the importance of input validation and file operations in game development.
+While developing this project, I reinforced my understanding of object-oriented programming concepts such as class design, constructors, destructors, and operator overloading. Implementing a simple game loop gave me valuable experience in managing game state and handling user inputs. I also learned the importance of input validation and file operations while in game development.
 
 
 ## Future Work
-In the future, I plan to expand the grid size, add more complex hazards or rewards, and introduce different difficulty levels. Additionally, I’m considering enhancing the user interface with graphical elements and developing a more sophisticated AI for the Wumpus to make the game even more engaging.
+In the future, I would like to expand the grid size this coulde make each game more intense, add more complex hazards or rewards, and introduce different difficulty levels. Additionally, I’m considering making a new user interface with graphical elements and developing a more sophisticated AI for the Wumpus to make the game even more engaging.
 
 
 
