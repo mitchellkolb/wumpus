@@ -22,7 +22,7 @@
     alt="Website Badge" />
 </p>
 
-A Hunt the Wumpus game written in C++ that is playable in the terminal. This game was made with a focus on using object oriented principles and file I/O.
+This is a C++ implementation of 'Hunt the Wumpus,' a text-based adventure game where players navigate a 5x5 grid, seeking hidden gold while avoiding pits and the dangerous Wumpus. The game highlights object-oriented programming concepts like class design and file operations.
 
 ![project image](resources/wumpus-art.jpg)
 
@@ -42,7 +42,11 @@ A Hunt the Wumpus game written in C++ that is playable in the terminal. This gam
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [References](#references)
+  - [Project Details](#project-details)
+  - [Gameplay](#gameplay)
+  - [Files and Structure](#files-and-structure)
+  - [Results and Lessons Learned](#results-and-lessons-learned)
+  - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -87,51 +91,28 @@ g++ -o my_program main.cpp GameWorld.cpp
 
 
 
-
-
 # Project Overview
-This project utilizes 
-
-
+This project utilizes C++ to create a text-based adventure game called "Hunt the Wumpus." I developed this game as part of a programming assignment for a Data Structures course. The game challenges players to navigate a maze, find hidden gold, and avoid deadly hazards like pits and the dreaded Wumpus.
 
 ## Project Details
+In "Hunt the Wumpus," you play on a 5x5 grid that contains a variety of elements: the player (you), a Wumpus (the enemy), a pot of gold (your reward), and several pits (ranging from 5 to 10). The player starts at a random location and must explore the game world by making strategic moves, all while trying to avoid the Wumpus and pits. The objective is to find the gold without running into any hazards. I implemented features like displaying the entire game world, revealing only adjacent areas, and allowing player movement in four directions.
 
-### Introduction
-In this project, we apply 
+## Gameplay
+The gameplay is straightforward: you control your character using keyboard inputs to move up, down, left, or right. You can also reveal adjacent tiles or display the entire game board if you want to cheat. The game continues until you either find the gold or encounter a Wumpus or a pit, which results in a loss. Points are awarded for each move you survive, but penalties apply if you reveal parts of the game world.
 
-
-### Literature Review
-In this we drew inspiration from various sources, including video tutorials online for 
-
-
-### Technical Plan
-The project employs a 
+## Files and Structure
+- `main.cpp`: This file contains the main game loop, which initializes the game world, handles user inputs, and manages the game state.
+- `GameWorld.cpp`: Here, I implemented the `GameWorld` class, which is responsible for the game environment and core functionalities like displaying the world and handling player movements.
+- `GameWorld.h`: This header file declares the `GameWorld` class and its methods.
 
 
-### Implementation Details
-
-#### Files and Structure
-- `game.py`: Contains the racing game environment and controls the car's movement.
-> [!NOTE]
-> These files were 
+## Results and Lessons Learned
+While developing this project, I reinforced my understanding of object-oriented programming concepts such as class design, constructors, destructors, and operator overloading. Implementing a simple game loop gave me valuable experience in managing game state and handling user inputs. I also learned the importance of input validation and file operations in game development.
 
 
-### Implementation
-In this project
+## Future Work
+In the future, I plan to expand the grid size, add more complex hazards or rewards, and introduce different difficulty levels. Additionally, I’m considering enhancing the user interface with graphical elements and developing a more sophisticated AI for the Wumpus to make the game even more engaging.
 
-#### Results and Observations
-During development,
-<p float="left">
-  <img src="resources/image1.png" alt="First Try" width="300" />
-  <img src="resources/image2.png" alt="Final Try" width="307" />
-</p>
-
-#### Future Work
-Future improvements could include
-
-
-
-## References
 
 
 
