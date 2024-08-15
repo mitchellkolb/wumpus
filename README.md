@@ -22,7 +22,7 @@
     alt="Website Badge" />
 </p>
 
-A Hunt the Wumpus game in C++ with OOP and file I/O.
+A Hunt the Wumpus game written in C++ that is playable in the terminal. This game was made with a focus on using object oriented principles and file I/O.
 
 ![project image](resources/wumpus-art.jpg)
 
@@ -48,8 +48,11 @@ A Hunt the Wumpus game in C++ with OOP and file I/O.
 ---
 
 # What I Learned in this Project
-- How to
-- Programming in 
+- Implementing and testing classes in C++ 
+- Declaring and defining constructors / destructors 
+- Understanding the use cases for public and private access specifiers in C++ 
+- Apply and implement overloaded functions 
+- Apply and implement overloaded operators (stream insertion and stream extraction) 
 
 
 
