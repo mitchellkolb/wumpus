@@ -98,8 +98,13 @@ I used C++ to create a text-based adventure game called "Hunt the Wumpus." This 
 In "Hunt the Wumpus," you play on a 5x5 grid that contains a variety of elements: the player (you), a Wumpus (the enemy), a pot of gold (your reward), and several pits (ranging from 5 to 10). The player starts at a random location and must explore the game world by making strategic moves, all while trying to avoid the Wumpus and pits. The objective is to find the gold without running into any hazards. I implemented features like displaying the entire game world, revealing only adjacent areas which creates a "fog of war", and allowing player movement in four directions.
 
 ## Gameplay
-In my "Hunt the Wumpus," you control your character using the keyboard. The game is played in turns, where you decide your next move based on the current state of the game. Here are the controls:
+In my "Hunt the Wumpus," you control your character using the keyboard. The game is played in turns, where you decide your next move based on the current state of the game. Here are the controls and map icons:
 
+
+- **Player/User:** On the map the player character is shown with `U`. This is the unit that you intended to move every turn.
+- **Wumpus:** On the map the wumpus character is shown with `W`. You want to stay away from this unit every turn you move.
+- **Pitt:** On the map the pitt icon is shown with `P`. You don't want to fall down this hole in the map.
+- **Gold:** On the map the Gold icon is shown with `G`. This is the icon you want reach to win the game.
 - **Move Up:** Press `i` or `I` to move the player up one square.
 - **Move Down:** Press `k` or `K` to move the player down one square.
 - **Move Left:** Press `j` or `J` to move the player left one square.
