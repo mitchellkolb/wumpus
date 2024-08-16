@@ -24,7 +24,7 @@
 
 This is a C++ implementation of 'Hunt the Wumpus,' a text-based adventure game where players navigate a 5x5 grid, seeking hidden gold while avoiding pits and the dangerous Wumpus. The game highlights object-oriented programming concepts like class design and file operations.
 
-![project image](resources/wumpus-art.jpg)
+![project image](resources/wumpus-gif.gif)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
