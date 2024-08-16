@@ -29,7 +29,7 @@ This is a C++ implementation of 'Hunt the Wumpus,' a text-based adventure game w
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
 
-[![Full Video Demo Here](https://img.youtube.com/vi/VidKEY/0.jpg)](https://www.youtube.com/watch?v=VidKEY)
+[![Full Video Demo Here](https://img.youtube.com/vi/kajZ7d_00y0/0.jpg)](https://www.youtube.com/watch?v=kajZ7d_00y0)
 
 </details>
 
