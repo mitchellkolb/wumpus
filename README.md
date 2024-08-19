@@ -4,18 +4,18 @@
 <h1 align="center">Hunt the Wumpus Game</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/wumpus?color=DE4830">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/wumpus?color=ED1750">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/wumpus?color=DE4830">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/wumpus?color=ED1750">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/wumpus?color=DE4830">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/wumpus?color=ED1750">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/wumpus?color=DE4830" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/wumpus?color=ED1750" />
 </p>
 
 <p align="center">
 <img
-    src="https://img.shields.io/badge/C++-DE4830?style=for-the-badge&logo=c&logoColor=white"
+    src="https://img.shields.io/badge/C++-ED1750?style=for-the-badge&logo=c&logoColor=white"
     alt="Website Badge" />
 <img
     src="https://img.shields.io/badge/Xcode-000000?style=for-the-badge&logo=apple&logoColor=white"
